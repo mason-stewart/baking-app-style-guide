@@ -1,0 +1,363 @@
+/*styleguide styles*/
+.main {
+     margin: 0 auto;
+     width: 900px;
+     padding: 30px;
+     background-color: white;
+}
+
+.left-column {
+	float: left;
+	width: 200px;
+}
+
+.right-column {
+	display: inline-block;
+	width: 700px;
+}
+
+.spacer {
+	margin-top: 15px;
+	margin-bottom: 15px;
+	padding: 0px;
+	border-bottom: 1px dotted #f9f5eb;
+}
+
+.labels {
+	color: #d8d8d8;
+	font-family: sans-serif;
+	font-weight: lighter;
+	font-size: 20px;
+}
+
+.description {
+	color: #d8d8d8;
+	font-family: sans-serif;
+	font-weight: lighter;
+	font-size: 12px;
+	font-style: italic;
+}
+
+.button-holder {
+margin-bottom: 15px;
+}
+
+/*Bake-Even*/
+body {
+	padding: 0;
+	margin: 0;
+	color: rgb(63, 63, 56);
+	background-color: rgb(63, 63, 56);
+}
+
+h1, h2, h3 , h4, h5, h6, p, ul, li {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	/*font-size: 100%;*/
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+	font-size: 50px;
+	font-family: 'Josefin Slab', serif;
+}
+
+h2 {
+	/*font-family: 'Josefin Slab', serif;*/
+	font-size: 30px;
+}
+
+h3 {
+	font-size: 20px;
+	/*font-family: 'Josefin Slab', serif;*/
+}
+
+h4 {
+	font-size: 20px;
+}
+
+h5 {
+	font-size: 16px;
+}
+
+h6 {
+	font-size: 18px;
+	font-family: 'Josefin Slab', serif;
+}
+
+p {
+	font-size: 12px;
+}
+
+strong {
+	font-weight: bold;
+	font-family: sans-serif;
+}
+
+em {
+	font-style: italic;
+}
+
+a {
+	text-decoration: none;
+	color: #efb968;
+	border-bottom: 1px dotted #efb968;
+}
+
+.underline {
+	border-bottom: 1px dotted;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #254a5d;
+	border-bottom: 1px dotted #254a5d;
+}
+
+/*Colours*/
+.slate { color: #254a5d; }
+
+.slate-bg { background-color: #254a5d; }
+
+.ivory { color: #f9f5eb; }
+
+.ivory {background-color: #f9f5eb; }
+
+.coral { color: #efb968; }
+
+.coral {background-color: #efb968; }
+
+.seafoam { color: #76c7a5; }
+
+.seafoam {background-color: #76c7a5; }
+
+
+
+/*Buttons*/
+
+/*Action Button*/
+.action-button {
+	font-family: 'Josefin Slab', serif;
+	font-size: 30px;
+	display: inline-block;
+	position: relative;
+	color: #f9f5eb;
+	font-weight: bold;
+	text-align: center;
+	letter-spacing: .05px;
+	text-decoration: none;
+	padding: 10px 30px;
+	width: 260px;
+	height: 60px;
+	border-radius: 7px;
+	-o-transition: all 0.3s linear 0s;
+	-moz-transition: all 0.3s linear 0s;
+	-webkit-transition: all 0.3s linear 0s;
+	transition: all 0.3s linear 0s;
+	background: #76c7a5;
+	border: 1px solid rgb(86, 153, 125);
+}
+
+
+.action-button:hover {
+	font-family: 'Josefin Slab', serif;
+	font-size: 30px;
+	display: inline-block;
+	position: relative;
+	color: #f9f5eb;
+	font-weight: bold;
+	text-align: center;
+	letter-spacing: .05px;
+	text-decoration: none;
+	padding: 10px 30px;
+	width: 260px;
+	height: 60px;
+	border-radius: 7px;
+	-o-transition: all 0.3s linear 0s;
+	-moz-transition: all 0.3s linear 0s;
+	-webkit-transition: all 0.3s linear 0s;
+	transition: all 0.3s linear 0s;
+	background: #254a5d;
+	border: 1px solid rgb(19, 39, 49);
+}
+
+/*Regular Button*/
+.regular-button {
+	font-size: 15px;
+	display: inline-block;
+	position: relative;
+	color: #76c7a5;
+	width: 260px;
+	text-align: center;
+	letter-spacing: 3px;
+	text-decoration: none;
+	padding: 6px 30px;
+	height: 30px;
+	border-radius: 5px;
+	text-transform: uppercase;
+	-o-transition: all 0.3s linear 0s;
+	-moz-transition: all 0.3s linear 0s;
+	-webkit-transition: all 0.3s linear 0s;
+	transition: all 0.3s linear 0s;
+	background: #f9f5eb;
+	border: 1px solid #76c7a5;
+}
+
+.regular-button:hover {
+	font-size: 15px;
+	display: inline-block;
+	position: relative;
+	color: #f9f5eb;
+	width: 260px;
+	text-align: center;
+	letter-spacing: 3px;
+	text-decoration: none;
+	padding: 6px 30px;
+	height: 30px;
+	border-radius: 5px;
+	text-transform: uppercase;
+	-o-transition: all 0.3s linear 0s;
+	-moz-transition: all 0.3s linear 0s;
+	-webkit-transition: all 0.3s linear 0s;
+	transition: all 0.3s linear 0s;
+	background: #76c7a5;
+	border: 1px solid rgb(86, 153, 125);
+}
+
+
+/*Secondary Button*/
+.secondary-button {
+	font-size: 15px;
+	display: inline-block;
+	position: relative;
+	color: #8f8f8f;
+	width: 260px;
+	text-align: center;
+	letter-spacing: 3px;
+	text-decoration: none;
+	padding: 6px 30px;
+	height: 30px;
+	border-radius: 5px;
+	text-transform: capitalize;
+	-o-transition: all 0.3s linear 0s;
+	-moz-transition: all 0.3s linear 0s;
+	-webkit-transition: all 0.3s linear 0s;
+	transition: all 0.3s linear 0s;
+	background-color: #f3f3f3;
+	border: 1px solid rgb(184, 180, 180);
+}
+
+.secondary-button:hover {
+	font-size: 15px;
+	display: inline-block;
+	position: relative;
+	color: #8f8f8f;
+	width: 260px;
+	text-align: center;
+	letter-spacing: 3px;
+	text-decoration: none;
+	padding: 6px 30px;
+	height: 30px;
+	border-radius: 5px;
+	text-transform: capitalize;
+	-o-transition: all 0.3s linear 0s;
+	-moz-transition: all 0.3s linear 0s;
+	-webkit-transition: all 0.3s linear 0s;
+	transition: all 0.3s linear 0s;
+	background-color: rgb(219, 218, 218);
+	border: 1px solid rgb(172, 168, 168);
+}
+
+
+
+
+/*Inputs*/
+
+
+/*input[type="radio"] {
+		display: inline-block;
+		height: 50px;
+		width: 50px;
+		background-color: #F3F3F3;
+		border-width: 1px;
+		border-style: solid;
+		border-color: #d8d8d8;
+	}
+
+input[type="radio"]:checked {
+		height: 50px;
+		width: 50px;
+		border-width: 5px;
+		border-color: #d8d8d8;
+		background-color: #acaaaa;
+	}*/
+
+
+/*input[type='radio'], 
+input[type='checkbox'] {
+    
+    opacity: 0;
+    
+    float: left;
+    width: 18px;
+}
+
+input[type='radio'] + label,
+input[type='checkbox'] + label {
+    margin: 0;
+    clear: none;
+    
+    /* Left padding makes room for image 
+    padding: 5px 0 4px 24px;
+
+    /* Make look clickable because they are 
+    cursor: pointer;
+    
+    background: url(radio.png) left center no-repeat; 
+}
+
+input[type='radio']:checked + label {
+    background-image: url(off.png);
+}
+input[type='checkbox']:checked + label {
+    background-image: url(check.png);
+}*/
+
+
+input[type=text] {
+	display: inline-block;
+	height: 25px;
+	width: 250px;
+	color: #8f8f8f;
+	padding: 6px 10px;
+	border: 1px solid #d8d8d8;
+	background-color: #f3f3f3;
+	border-radius: 4px;
+	outline: none;
+}
+
+textarea:focus,
+input:focus {border-color: #acaaaa;}
+
+input[type=url] {
+	display: inline-block;
+	height: 25px;
+	width: 250px;
+	color: #cc0202;
+	padding: 6px 10px;
+	border: 1px solid #ff0000;
+	background-color: #fc9b9b;
+	border-radius: 4px;
+	outline: none;
+}
+
+/*Images*/
+.image-wrapper {
+	border: 3px dotted rgba(118, 199, 165, 0.24);
+	border-radius: 5px;
+	padding: 15px;
+	float: left;
+	margin-right: 18px;
+	margin-bottom: 18px;
+}
