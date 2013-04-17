@@ -1,4 +1,4 @@
-/*styleguide styles*/
+/*styleguide only styles*/
 .main {
      margin: 0 auto;
      width: 900px;
@@ -28,10 +28,12 @@
 	font-family: sans-serif;
 	font-weight: lighter;
 	font-size: 20px;
+	vertical-align: top;
+	line-height: 20px;
 }
 
 .description {
-	color: #d8d8d8;
+	color: rgb(187, 180, 180);
 	font-family: sans-serif;
 	font-weight: lighter;
 	font-size: 12px;
@@ -42,7 +44,7 @@
 margin-bottom: 15px;
 }
 
-/*Bake-Even*/
+/*actual style guide*/
 body {
 	padding: 0;
 	margin: 0;
@@ -54,40 +56,47 @@ h1, h2, h3 , h4, h5, h6, p, ul, li {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	/*font-size: 100%;*/
 	font-family: 'Open Sans', sans-serif;
+
 }
 
 h1 {
-	font-size: 50px;
+	font-size: 88px;
 	font-family: 'Josefin Slab', serif;
+	line-height: 88px;
+	
 }
 
 h2 {
-	/*font-family: 'Josefin Slab', serif;*/
-	font-size: 30px;
+	font-family: 'Josefin Slab', serif;
+	font-size: 47px;
+	line-height: 59px;
 }
 
 h3 {
-	font-size: 20px;
-	/*font-family: 'Josefin Slab', serif;*/
+	font-size: 35px;
+	line-height: 45px;
 }
 
 h4 {
-	font-size: 20px;
+	font-size: 29px;
+	line-height: 42px;
 }
 
 h5 {
-	font-size: 16px;
+	font-size: 23px;
+	line-height: 40px;
 }
 
 h6 {
 	font-size: 18px;
-	font-family: 'Josefin Slab', serif;
+	line-height: 33px;
 }
 
 p {
-	font-size: 12px;
+	font-size: 16px;
+	line-height: 20px;
+	color: rgb(143, 131, 131);
 }
 
 strong {
@@ -101,8 +110,7 @@ em {
 
 a {
 	text-decoration: none;
-	color: #efb968;
-	border-bottom: 1px dotted #efb968;
+	color: rgb(88, 178, 224);
 }
 
 .underline {
@@ -112,7 +120,6 @@ a {
 a:hover {
 	text-decoration: none;
 	color: #254a5d;
-	border-bottom: 1px dotted #254a5d;
 }
 
 /*Colours*/
@@ -131,8 +138,6 @@ a:hover {
 .seafoam { color: #76c7a5; }
 
 .seafoam {background-color: #76c7a5; }
-
-
 
 /*Buttons*/
 
@@ -158,7 +163,6 @@ a:hover {
 	background: #76c7a5;
 	border: 1px solid rgb(86, 153, 125);
 }
-
 
 .action-button:hover {
 	font-family: 'Josefin Slab', serif;
@@ -225,7 +229,6 @@ a:hover {
 	border: 1px solid rgb(86, 153, 125);
 }
 
-
 /*Secondary Button*/
 .secondary-button {
 	font-size: 15px;
@@ -268,9 +271,6 @@ a:hover {
 	background-color: rgb(219, 218, 218);
 	border: 1px solid rgb(172, 168, 168);
 }
-
-
-
 
 /*Inputs*/
 
@@ -347,10 +347,39 @@ input[type=url] {
 	color: #cc0202;
 	padding: 6px 10px;
 	border: 1px solid #ff0000;
-	background-color: #fc9b9b;
+	background-color: rgba(252, 155, 155, 0.43);
 	border-radius: 4px;
 	outline: none;
 }
+
+/*Slider*/
+input[type=range] {
+    -webkit-appearance: none;
+    padding: 6px 30px;
+	height: 30px;
+	border-radius: 5px;
+    background-color: #f3f3f3;
+	border: 1px solid rgb(184, 180, 180);
+    width: 200px;
+    height:2px;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+     -webkit-appearance: none;
+   	background: #76c7a5;
+	border: 1px solid rgb(86, 153, 125);
+    border-radius: 4px;
+    /*opacity: 0.8;*/
+    width: 50px;
+    height: 26px;
+}
+
+/*Charts*/
+/*#myChart {
+	width: 400px;
+	height: 400px;
+}
+*/
 
 /*Images*/
 .image-wrapper {
